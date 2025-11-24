@@ -117,7 +117,7 @@ Route::get('/', function () {
     return redirect()->route('dashboard');
 });
 
-
+//test
 
 Route::get('/banglai', [TblLoaiBangLaiController::class, 'index'])->name('banglai_list');
 Route::get('banglai/update/{id}', [TblLoaiBangLaiController::class, 'edit'])->name('banglai_edit');
